@@ -104,9 +104,3 @@ plt.title('corrected data')
 Beautiful_Axis(plt, 1, 7)
 plt.legend(frameon=False)
 plt.show()
-
-#final result
-plt.plot(x_axis, cell_sp_co-bkgd_sp_co)
-plt.title('substracted cell data')
-Beautiful_Axis(plt, 1, 7)
-plt.show()
