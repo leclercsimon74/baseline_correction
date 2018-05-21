@@ -12,3 +12,5 @@ To exlude signal, a Otsu threshold is applied (http://scikit-image.org/docs/dev/
 
 Parameters of the function is the data (1d array), block_size (optionnal, at 101), the polyorder (optionnal, at 3) and the show_graph (optionnal, True). The block size permits to control the window used for the moving average and the smoothing. I advise to use a block size superior to the size of the 'signal' peak, and inferior to the baseline variations. The polyorder affect the smoothing power, with a low poly resulting in a vey blocky smooth. Finally, the show_graph permit to display the raw data, raw and smooth baseline as well as the corrected data on the same graph.
 The function returns only the corrected data, same lenght as the input data.
+
+More information on https://leclercsimon74.wixsite.com/mysite
